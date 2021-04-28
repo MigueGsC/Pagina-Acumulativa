@@ -1,1 +1,51 @@
 <p>pagina-agregar-cliente works!</p>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<form>
+    <ul>
+        <li>
+            <label for= 'Nombres'>
+                Nombres
+            </label>
+            <input id="nombres" type="text" maxlenght="60">
+        </li>
+        <br>
+
+        <li>
+            <label for= 'Apellidos'>
+                Apellidos
+            </label>
+            <input id="apellidos"type="text" maxlenght="60">
+        </li>
+        <br>
+        
+        
+            
+        <div class="radioLeft">
+            <input value="Masculino" type="radio"><b>Masculino </b><br>
+            <input value="Femenino" type="radio"><b>Femenino </b><br>
+            <input value="Otro" type="radio"><b>Otro</b> <br>
+        </div>
+
+        <br>
+
+        <div class="Pais">
+            <label for="Pais">Pais</label>
+            <div>
+                <select id="pais" required="true">
+                    <option>Seleccione su pais</option>
+                    <option value="1">Chile</option>
+                    <option value="2">Argentina</option>
+                    <option value="3">Peru</option>
+                    <option value="4">Colombia</option>
+                    <option value="5">Venezuela</option>
+                </select>
+
+            </div>
+        </div>
+
+        <button class="boton" type="submit"><span>Crear</span></button><button class="boton" type="reset">Cancelar</button>
+    </ul>
+
+
+</form>
